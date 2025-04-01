@@ -15,7 +15,6 @@ public class Person {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
+        return "Person [name: " + name + ", age: " + age + "]";
     }
 }
