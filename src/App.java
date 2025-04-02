@@ -8,5 +8,6 @@ public class App {
 
         MangePeople mG = new MangePeople();
         mG.sortPeopleByAge();
+        mG.sortPeopleByName();
     }
 }
