@@ -7,5 +7,6 @@ public class App {
         // System.out.println(person.getName());
 
         MangePeople mG = new MangePeople();
+        mG.sortPeopleByAge();
     }
 }

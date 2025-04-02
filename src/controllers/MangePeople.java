@@ -24,5 +24,10 @@ public class MangePeople {
         vista.printPeopleList(people);
 
     }
+    public void sortPeopleByAge(){
+        vista.showessage("Personas por edad");
+        sorting.sortByAge(people);
+        vista.printPeopleList(people);
+    }
 
 }
